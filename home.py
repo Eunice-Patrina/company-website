@@ -21,7 +21,6 @@ col1, col2, col3 = st.columns(3)
 
 
 with col1:
-    output_format(ata[:length1])
     for index, value in data[:length1].iterrows():
         name = "{} {}".format(value["first name"], value["last name"])
         st.subheader(name.title())
