@@ -4,9 +4,8 @@ def send_email(message):
     host = "smtp.gmail.com"
     port = 465
 
-    email = "eunicepatrina0@gmail.com"
-    password = "vnsmyhpurcjzbzld"
-
+    email = "whatever@gitguardian.com"
+    password = @StrongOneThisTime
     context = ssl.create_default_context()
 
 
